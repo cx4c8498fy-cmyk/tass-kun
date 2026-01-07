@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24099E7C2EE484D200D9E756 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242C2E042EA536820040E13B /* ContentView.swift */; };
+		242C2E032EA536820040E13B /* TodoApp_kuzeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242C2E022EA536820040E13B /* TodoApp_kuzeApp.swift */; };
+		242C2E072EA536850040E13B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242C2E062EA536850040E13B /* Assets.xcassets */; };
+		242C2E0A2EA536850040E13B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242C2E092EA536850040E13B /* Preview Assets.xcassets */; };
+		242C2E142EA536850040E13B /* TodoApp_kuzeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242C2E132EA536850040E13B /* TodoApp_kuzeTests.swift */; };
+		242C2E1E2EA536850040E13B /* TodoApp_kuzeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242C2E1D2EA536850040E13B /* TodoApp_kuzeUITests.swift */; };
+		242C2E202EA536850040E13B /* TodoApp_kuzeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242C2E1F2EA536850040E13B /* TodoApp_kuzeUITestsLaunchTests.swift */; };
+		24C60EBC2EE5B8EE0075C5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242C2E062EA536850040E13B /* Assets.xcassets */; };
+		24C60EBD2EE5B8EE0075C5A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 242C2E062EA536850040E13B /* Assets.xcassets */; };
+		24C60F5A2EF2E4C30075C5A5 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 24C60F592EF2E4C30075C5A5 /* GoogleMobileAds */; };
+		24F7A0C62EE7E0F4007A8934 /* SortManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7A0C52EE7E0F4007A8934 /* SortManager.swift */; };
+		24F7A0CB2EE7E8AC007A8934 /* TaskSetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F7A0CA2EE7E8AC007A8934 /* TaskSetManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		242C2E102EA536850040E13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242C2DF72EA536820040E13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242C2DFE2EA536820040E13B;
+			remoteInfo = TodoApp_kuze;
+		};
+		242C2E1A2EA536850040E13B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242C2DF72EA536820040E13B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242C2DFE2EA536820040E13B;
+			remoteInfo = TodoApp_kuze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		242C2DFF2EA536820040E13B /* TodoApp_kuze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp_kuze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		242C2E022EA536820040E13B /* TodoApp_kuzeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp_kuzeApp.swift; sourceTree = "<group>"; };
+		242C2E042EA536820040E13B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		242C2E062EA536850040E13B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		242C2E092EA536850040E13B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		242C2E0F2EA536850040E13B /* TodoApp_kuzeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoApp_kuzeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		242C2E132EA536850040E13B /* TodoApp_kuzeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp_kuzeTests.swift; sourceTree = "<group>"; };
+		242C2E192EA536850040E13B /* TodoApp_kuzeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoApp_kuzeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		242C2E1D2EA536850040E13B /* TodoApp_kuzeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp_kuzeUITests.swift; sourceTree = "<group>"; };
+		242C2E1F2EA536850040E13B /* TodoApp_kuzeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp_kuzeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		24C60F5B2EF2ED7A0075C5A5 /* TodoApp-kuze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TodoApp-kuze-Info.plist"; sourceTree = SOURCE_ROOT; };
+		24F7A0C52EE7E0F4007A8934 /* SortManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortManager.swift; sourceTree = "<group>"; };
+		24F7A0CA2EE7E8AC007A8934 /* TaskSetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSetManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		242C2DFC2EA536820040E13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C60F5A2EF2E4C30075C5A5 /* GoogleMobileAds in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C2E0C2EA536850040E13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C2E162EA536850040E13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242C2DF62EA536820040E13B = {
+			isa = PBXGroup;
+			children = (
+				242C2E012EA536820040E13B /* TodoApp_kuze */,
+				242C2E122EA536850040E13B /* TodoApp_kuzeTests */,
+				242C2E1C2EA536850040E13B /* TodoApp_kuzeUITests */,
+				24C60F582EF2E4C30075C5A5 /* Frameworks */,
+				242C2E002EA536820040E13B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		242C2E002EA536820040E13B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				242C2DFF2EA536820040E13B /* TodoApp_kuze.app */,
+				242C2E0F2EA536850040E13B /* TodoApp_kuzeTests.xctest */,
+				242C2E192EA536850040E13B /* TodoApp_kuzeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		242C2E012EA536820040E13B /* TodoApp_kuze */ = {
+			isa = PBXGroup;
+			children = (
+				24C60F5B2EF2ED7A0075C5A5 /* TodoApp-kuze-Info.plist */,
+				24F7A0C52EE7E0F4007A8934 /* SortManager.swift */,
+				24F7A0CA2EE7E8AC007A8934 /* TaskSetManager.swift */,
+				242C2E022EA536820040E13B /* TodoApp_kuzeApp.swift */,
+				242C2E042EA536820040E13B /* ContentView.swift */,
+				242C2E062EA536850040E13B /* Assets.xcassets */,
+				242C2E082EA536850040E13B /* Preview Content */,
+			);
+			path = TodoApp_kuze;
+			sourceTree = "<group>";
+		};
+		242C2E082EA536850040E13B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				242C2E092EA536850040E13B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		242C2E122EA536850040E13B /* TodoApp_kuzeTests */ = {
+			isa = PBXGroup;
+			children = (
+				242C2E132EA536850040E13B /* TodoApp_kuzeTests.swift */,
+			);
+			path = TodoApp_kuzeTests;
+			sourceTree = "<group>";
+		};
+		242C2E1C2EA536850040E13B /* TodoApp_kuzeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				242C2E1D2EA536850040E13B /* TodoApp_kuzeUITests.swift */,
+				242C2E1F2EA536850040E13B /* TodoApp_kuzeUITestsLaunchTests.swift */,
+			);
+			path = TodoApp_kuzeUITests;
+			sourceTree = "<group>";
+		};
+		24C60F582EF2E4C30075C5A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		242C2DFE2EA536820040E13B /* TodoApp_kuze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242C2E232EA536850040E13B /* Build configuration list for PBXNativeTarget "TodoApp_kuze" */;
+			buildPhases = (
+				242C2DFB2EA536820040E13B /* Sources */,
+				242C2DFC2EA536820040E13B /* Frameworks */,
+				242C2DFD2EA536820040E13B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoApp_kuze;
+			productName = TodoApp_kuze;
+			productReference = 242C2DFF2EA536820040E13B /* TodoApp_kuze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		242C2E0E2EA536850040E13B /* TodoApp_kuzeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242C2E262EA536850040E13B /* Build configuration list for PBXNativeTarget "TodoApp_kuzeTests" */;
+			buildPhases = (
+				242C2E0B2EA536850040E13B /* Sources */,
+				242C2E0C2EA536850040E13B /* Frameworks */,
+				242C2E0D2EA536850040E13B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242C2E112EA536850040E13B /* PBXTargetDependency */,
+			);
+			name = TodoApp_kuzeTests;
+			productName = TodoApp_kuzeTests;
+			productReference = 242C2E0F2EA536850040E13B /* TodoApp_kuzeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		242C2E182EA536850040E13B /* TodoApp_kuzeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242C2E292EA536850040E13B /* Build configuration list for PBXNativeTarget "TodoApp_kuzeUITests" */;
+			buildPhases = (
+				242C2E152EA536850040E13B /* Sources */,
+				242C2E162EA536850040E13B /* Frameworks */,
+				242C2E172EA536850040E13B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242C2E1B2EA536850040E13B /* PBXTargetDependency */,
+			);
+			name = TodoApp_kuzeUITests;
+			productName = TodoApp_kuzeUITests;
+			productReference = 242C2E192EA536850040E13B /* TodoApp_kuzeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		242C2DF72EA536820040E13B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					242C2DFE2EA536820040E13B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					242C2E0E2EA536850040E13B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 242C2DFE2EA536820040E13B;
+					};
+					242C2E182EA536850040E13B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 242C2DFE2EA536820040E13B;
+					};
+				};
+			};
+			buildConfigurationList = 242C2DFA2EA536820040E13B /* Build configuration list for PBXProject "TodoApp_kuze" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 242C2DF62EA536820040E13B;
+			packageReferences = (
+				24C60F532EF2DB760075C5A5 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = 242C2E002EA536820040E13B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				242C2DFE2EA536820040E13B /* TodoApp_kuze */,
+				242C2E0E2EA536850040E13B /* TodoApp_kuzeTests */,
+				242C2E182EA536850040E13B /* TodoApp_kuzeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		242C2DFD2EA536820040E13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242C2E0A2EA536850040E13B /* Preview Assets.xcassets in Resources */,
+				242C2E072EA536850040E13B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C2E0D2EA536850040E13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C60EBC2EE5B8EE0075C5A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C2E172EA536850040E13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C60EBD2EE5B8EE0075C5A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		242C2DFB2EA536820040E13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F7A0C62EE7E0F4007A8934 /* SortManager.swift in Sources */,
+				24F7A0CB2EE7E8AC007A8934 /* TaskSetManager.swift in Sources */,
+				24099E7C2EE484D200D9E756 /* ContentView.swift in Sources */,
+				242C2E032EA536820040E13B /* TodoApp_kuzeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C2E0B2EA536850040E13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242C2E142EA536850040E13B /* TodoApp_kuzeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242C2E152EA536850040E13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242C2E1E2EA536850040E13B /* TodoApp_kuzeUITests.swift in Sources */,
+				242C2E202EA536850040E13B /* TodoApp_kuzeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		242C2E112EA536850040E13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242C2DFE2EA536820040E13B /* TodoApp_kuze */;
+			targetProxy = 242C2E102EA536850040E13B /* PBXContainerItemProxy */;
+		};
+		242C2E1B2EA536850040E13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242C2DFE2EA536820040E13B /* TodoApp_kuze */;
+			targetProxy = 242C2E1A2EA536850040E13B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		242C2E212EA536850040E13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = SKKZH8752Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		242C2E222EA536850040E13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = SKKZH8752Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		242C2E242EA536850040E13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"TodoApp_kuze/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TodoApp-kuze-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tass kun";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "広告の最適化のためトラッキング許可をお願いします。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuze.TodoApp-kuze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		242C2E252EA536850040E13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"TodoApp_kuze/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TodoApp-kuze-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tass kun";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "広告の最適化のためトラッキング許可をお願いします。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuze.TodoApp-kuze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		242C2E272EA536850040E13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuze.TodoApp-kuzeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApp_kuze.app/TodoApp_kuze";
+			};
+			name = Debug;
+		};
+		242C2E282EA536850040E13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuze.TodoApp-kuzeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApp_kuze.app/TodoApp_kuze";
+			};
+			name = Release;
+		};
+		242C2E2A2EA536850040E13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuze.TodoApp-kuzeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TodoApp_kuze;
+			};
+			name = Debug;
+		};
+		242C2E2B2EA536850040E13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kuze.TodoApp-kuzeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TodoApp_kuze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		242C2DFA2EA536820040E13B /* Build configuration list for PBXProject "TodoApp_kuze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242C2E212EA536850040E13B /* Debug */,
+				242C2E222EA536850040E13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242C2E232EA536850040E13B /* Build configuration list for PBXNativeTarget "TodoApp_kuze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242C2E242EA536850040E13B /* Debug */,
+				242C2E252EA536850040E13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242C2E262EA536850040E13B /* Build configuration list for PBXNativeTarget "TodoApp_kuzeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242C2E272EA536850040E13B /* Debug */,
+				242C2E282EA536850040E13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242C2E292EA536850040E13B /* Build configuration list for PBXNativeTarget "TodoApp_kuzeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242C2E2A2EA536850040E13B /* Debug */,
+				242C2E2B2EA536850040E13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24C60F532EF2DB760075C5A5 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		24C60F592EF2E4C30075C5A5 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24C60F532EF2DB760075C5A5 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 242C2DF72EA536820040E13B /* Project object */;
+}
